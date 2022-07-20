@@ -1,3 +1,15 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 85vh;
+}
+
 h1{
     text-align: center;
     margin: 12px 0px;
@@ -29,4 +41,16 @@ h1{
     margin: 7px 0px;
     font-size: 16px;
     outline: none;
+}
+
+.btn{
+    font-size: 16px;
+    width: 40vw;
+    border-radius: 8px;
+    box-shadow: 3px 3px 4px grey;
+    margin: 5px 0px;
+    cursor: pointer;
+    padding: 5px 0px;
+    background-color: #5b5a5a;
+    color: white;
 }
