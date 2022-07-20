@@ -1,0 +1,48 @@
+extends base.pug
+
+block style 
+    style 
+        include ../static/style.css
+
+block script
+    script(src="/static/index.js")
+
+block content 
+
+    section#introSection 
+      | Welcome to 
+      br
+      | Ren's Dance Academy 
+
+    section#missionSection
+      h3 Our Mission
+      section
+        .card 
+          h3 Promote Fitness through Dance
+          .card-box 
+            .card-img 
+              img(src="/static/img/dance-fitness.jpg")
+            .card-content
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident magni assumenda pariatur explicabo porro fugiat, natus libero aspernatur placeat, sed, harum praesentium.
+        .card
+          h3 Dance Contest
+          .card-box 
+            .card-img 
+              img(src="/static/img/michael.png")
+            .card-content
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident magni assumenda pariatur explicabo porro fugiat, natus libero aspernatur placeat, sed, harum praesentium.
+        .card 
+          h3 Leisure Activities for Children
+          .card-box 
+            .card-img 
+              img(src="/static/img/leisure.jpg")
+            .card-content
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident magni assumenda pariatur explicabo porro fugiat, natus libero aspernatur placeat, sed, harum praesentium.
+
+    section#partnersSection
+      h3 Our Partners
+      #partners 
+        img(src="/static/img/amazon.png", alt="Sponsor Image", class="spImage")
+        img(src="/static/img/windows.png", alt="Sponsor Image", class="spImage")
+        img(src="/static/img/walmart.jpg", alt="Sponsor Image", class="spImage")
+        img(src="/static/img/linux.png", alt="Sponsor Image", class="spImage")

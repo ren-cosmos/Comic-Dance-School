@@ -2,8 +2,18 @@ html
   head
     title Cosmic Dance School
     block style
-    block scripts
+    block script
   body
+    nav#navbar 
+        ul 
+            #logo
+              img(src="/static/img/ballet.png")
+              | RDA
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contact Us]
     block content
     section#footer
-      | Copyright &copy; 2022 danceAcademyofRen.com | All rights reserved
+      | Copyright &copy; 2022 cosmicDanceSchool.com | All rights reserved
